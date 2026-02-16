@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Romanian Wines</title>
+    <link rel="icon" type="image/x-icon" href="Gallery/ico.ico" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link href="dist/styles.css" rel="stylesheet" />
+  </head>
+  <body class="font-serif bg-amber-50">
+    <!-- Navigation -->
+    <nav class="briar-brown text-white sticky top-0 z-50 shadow-lg">
+      <div
+        class="container mx-auto px-6 py-4 flex justify-between items-center"
+      >
+        <a href="index.html" class="text-2xl font-bold flex items-center">
+          <img id="signature" src="Gallery/logo4.png" />
+        </a>
+        <div class="hidden md:flex space-x-8">
+          <a href="index.html" class="menu_text">Home</a>
+          <a href="story.html" class="menu_text">My Story</a>
+          <a href="gallery.html" class="menu_text">Gallery</a>
+          <a href="order.html" class="menu_text">How to Order</a>
+          <a href="contact.html" class="menu_text">Contact</a>
+        </div>
+        <button class="md:hidden focus:outline-none" id="menu-btn">
+          <i data-feather="menu"></i>
+        </button>
+      </div>
+      <!-- Mobile menu -->
+      <div class="md:hidden hidden briar-dark py-2" id="mobile-menu">
+        <div class="container mx-auto px-6 flex flex-col space-y-3">
+          <a href="index.html" class="hover:text-amber-200 transition">Home</a>
+          <a href="story.html" class="hover:text-amber-200 transition"
+            >My Story</a
+          >
+          <a href="gallery.html" class="hover:text-amber-200 transition"
+            >Gallery</a
+          >
+          <a href="order.html" class="hover:text-amber-200 transition"
+            >How to Order</a
+          >
+          <a href="contact.html" class="hover:text-amber-200 transition"
+            >Contact</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <!-- Story Section -->
+    <!-- Section duplicated and inverted -->
+    <section class="py-20 bg-white">
+      <div class="container mx-auto px-6">
+        <h2
+          class="text-3xl md:text-4xl font-bold text-center text-briar mb-16"
+          data-aos="fade-up"
+        >
+          Romanian Wine Heritage
+        </h2>
+
+        <!-- Top section: image left, text right -->
+        <div class="flex flex-col md:flex-row items-center storySectionPart">
+          <!-- Left side: Image -->
+          <div
+            class="md:w-1/2 mb-10 md:mb-0 storySectionPart"
+            data-aos="fade-right"
+          >
+            <img
+              src="Gallery/vineyard.jpg"
+              alt="Workshop"
+              class="rounded-lg shadow-xl"
+            />
+          </div>
+
+          <!-- Right side: Text -->
+          <div class="md:w-1/2 md:pl-12" data-aos="fade-left">
+            <h3 class="text-2xl font-bold text-briar mb-4">
+              Ancient and Medieval Times
+            </h3>
+            <p class="text-gray-700 mb-4">
+              Romania has one of the oldest and most continuous winemaking
+              traditions in Europe, with roots stretching back over 6,000 years.
+              Archaeological evidence shows that vine cultivation existed in the
+              territory of modern-day Romania long before the Roman conquest.
+              When the Romans arrived in Dacia in the 2nd century AD, they
+              further developed viticulture, expanding vineyards and refining
+              production techniques.<br /><br />
+              During the Middle Ages, monasteries played a key role in
+              preserving and advancing winemaking knowledge. Over time, distinct
+              wine regions emerged, many of which remain important today. Areas
+              such as Moldavia, Transylvania, and Wallachia developed strong
+              local traditions, influenced by their climate, soils, and cultural
+              exchanges with neighboring regions.
+            </p>
+            <p class="text-gray-700 mb-6"></p>
+            <div class="flex items-center">
+              <!-- <div class="briar-light text-white p-3 rounded-full mr-4">
+                <a href="mailto:office@artpipecraft.com"
+                  ><i data-feather="mail"></i
+                ></a>
+              </div>
+              <p class="text-gray-700">
+                What's your favorite material for pipes? Send me your answer by
+                <a href="mailto:office@artpipecraft.com"><u>email</u></a
+                >.
+              </p> -->
+            </div>
+          </div>
+        </div>
+        <br /><br />
+        <!-- Bottom section: text left, image right -->
+        <div class="flex flex-col md:flex-row items-center">
+          <!-- Left side: Text -->
+          <div
+            class="md:w-1/2 mb-10 md:mb-0 storyParagraphContainer"
+            data-aos="fade-right"
+          >
+            <h3 class="text-2xl font-bold text-briar mb-4">Modern Times</h3>
+            <p class="text-gray-700 mb-4">
+              In the 19th century, Romanian viticulture was significantly
+              affected by the phylloxera crisis, which devastated European
+              vineyards. The industry was gradually rebuilt through grafting
+              local grape varieties onto resistant rootstocks. The 20th century
+              brought large-scale production during the communist period,
+              focusing primarily on quantity. However, since the 1990s, Romania
+              has undergone a remarkable transformation, with substantial
+              investments in modern technology and vineyard management.
+              <br /><br />Today, Romania is one of the largest wine producers in
+              Europe, combining indigenous grape varieties such as Fetească
+              Neagră, Fetească Albă, and Fetească Regală with international
+              cultivars. Contemporary Romanian wineries emphasize quality,
+              terroir expression, and authenticity, earning growing recognition
+              on the global wine stage.
+            </p>
+
+            <p class="text-gray-700 mb-6"></p>
+
+            <div class="flex items-center">
+              <div class="briar-light text-white p-3 rounded-full mr-4">
+                <i data-feather="feather"></i>
+              </div>
+              <p class="text-gray-700">
+                Fact: Romania is home to some of Europe’s oldest documented
+                vineyards. 
+                🍷
+              </p>
+            </div>
+          </div>
+
+          <!-- Right side: Image -->
+          <div class="md:w-1/2 mb-10 md:mb-0" data-aos="fade-left">
+            <img
+              src="Gallery/wineglasses.jpg"
+              alt="Workshop"
+              class="rounded-lg shadow-xl"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- butoane -->
+    <div class="center-div">
+      <a
+        href="gallery.html"
+        class="btn inline-block briar-brown hover:briar-dark text-white px-8 py-3 rounded-full text-lg font-medium transition"
+      >
+        Go to Gallery
+      </a>
+      <a
+        href="index.html"
+        class="btn inline-block briar-brown hover:briar-dark text-white px-8 py-3 rounded-full text-lg font-medium transition"
+      >
+        Back to Main Page
+      </a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="briar-brown text-white py-12">
+      <div class="container mx-auto px-6">
+        <div class="flex flex-col md:flex-row justify-between items-center">
+          <div class="mb-6 md:mb-0">
+            <h3 class="text-2xl font-bold flex items-center">
+              <img id="signature" src="Gallery/logo4.png" />
+            </h3>
+            <p class="mt-2 text-amber-200">
+              Handcrafted smoking pipes and accessories
+            </p>
+          </div>
+          <div class="flex space-x-6">
+            <a href="#" class="hover:text-amber-300 transition">
+              <i data-feather="instagram"></i>
+            </a>
+            <a href="#" class="hover:text-amber-300 transition">
+              <i data-feather="facebook"></i>
+            </a>
+            <a href="#" class="hover:text-amber-300 transition">
+              <i data-feather="twitter"></i>
+            </a>
+          </div>
+        </div>
+        <div
+          class="border-t border-amber-800 mt-8 pt-8 text-center text-sm text-amber-200"
+        >
+          <p>&copy; 2026 RGabriel. All rights reserved.</p>
+          <p class="mt-2">Handmade in Europe with premium wood</p>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="script.js" defer></script>
+  </body>
+</html>

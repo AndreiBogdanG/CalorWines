@@ -1,0 +1,24 @@
+{
+  "name": "pipes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script-1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwindcss build src/styles.css -o dist/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreiBogdanG/RGabriel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndreiBogdanG/RGabriel/issues"
+  },
+  "homepage": "https://github.com/AndreiBogdanG/RGabriel#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.0"
+  }
+}
