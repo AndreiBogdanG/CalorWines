@@ -82,6 +82,21 @@ body {
   /* gap: 2rem; */
 }
 
+#story-img-div {
+  width: auto;
+}
+
+#story-txt-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+}
+
+#our-story-image {
+  height: 70vh;
+}
+
 .small-image {
   width: 150px; /* Dimensiune fixă pentru imaginile mici */
   height: auto;
