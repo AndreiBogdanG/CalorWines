@@ -12,7 +12,7 @@ const mesajEroare = {
 
 const pipe1 = {
   item: "1",
-  image: "Gallery/Rasova/La-Plage-Rose.png",
+  image: "Gallery/Rasova/La-Plage-D-Amour-Rose.jpg",
   image1: "",
   image2: "",
   image3: "",
@@ -34,9 +34,9 @@ const pipe1 = {
     qualityClassification: "C.D.O. - Murfatlar vineyard",
     priceWithoutVAT: "EUR 12",
   },
-  fullDescription: `It displays a delicate, luminous peach-pink hue that immediately catches the eye. On the nose, it unfolds with a fresh, lively, and generous aromatic profile, offering well-defined fruity notes of raspberry, white blossoms, wild strawberries, and crisp red apples. The intensity is above average, yet beautifully balanced, expressing a charming and approachable character.<br><br>
+  fullDescription: `It displays a delicate, bright peach-rose color, while on the nose it reveals a fresh, lively, and generous aromatic combination, offering well-defined fruity sensations of raspberries, white flowers, strawberries, and red apples, with above-average intensity and a friendly character.<br><br>
 
-On the palate, it is light and fruit-driven, with vibrant hints of pink grapefruit and pomegranate adding an appealing twist. The finish is tonic, refreshing, and pleasantly crisp, leaving a clean and invigorating impression. An easy-drinking, friendly wine that captivates through its expressive and intense aromas.`,
+The palate is fruity and light, with intriguing notes of pink grapefruit and pomegranate, finishing with a tonic, fresh, and crisp sensation. An easy-drinking, very approachable wine that captivates with its intense aromas.`,
 };
 
 const pipe2 = {
@@ -63,7 +63,10 @@ const pipe2 = {
     qualityClassification: "",
     priceWithoutVAT: "EUR 14",
   },
-  fullDescription: ``,
+  fullDescription: `It has a delicate onion-skin color and displays intense, enticing aromas of red apples, raspberries, and strawberries, complemented by secondary vegetal and citrus notes, with lightly spiced impressions. The palate is fruity and well-defined, featuring ripe red apple tones, balanced and refreshing, supported by elegant and precise acidity.<br><br>
+
+  The fruity structure is well-tempered by crisp vegetal-citrus impressions and a salty minerality. The long, juicy finish highlights sensations of green apples, raspberries, and gooseberries over a citrus-mineral backdrop. A vibrant and fresh rosé, perfect for those who appreciate fruity freshness and mineral elegance.
+  `,
 };
 
 const pipe3 = {
@@ -90,7 +93,10 @@ const pipe3 = {
     qualityClassification: "",
     priceWithoutVAT: "EUR 12",
   },
-  fullDescription: ``,
+  fullDescription: `It expresses itself clearly and precisely, in well-defined tones of wildflowers, apricot blossoms, green apples and pears, and lime, supported in the background by delicate, sweet hints of pollen. Easy to drink and approachable, it communicates instantly through the vibrant, friendly, and fresh sensations it provides.<br><br>
+
+Its juicy and crisp palate opens with notes of green apple, followed by a mid-palate balanced by acid-vegetal accents of apricots and unripe mirabelle plums. The finish leaves a slightly granular texture due to its persistent acidity, while spicy-alcoholic sensations add freshness and volume.
+`,
 };
 
 const pipe4 = {
@@ -117,7 +123,9 @@ const pipe4 = {
     qualityClassification: "",
     priceWithoutVAT: "EUR 16.5",
   },
-  fullDescription: ``,
+  fullDescription: `A dry, barrel-aged white wine that surprises with its elegant body, good acidity, and notes of oriental spices on the finish.<br><br>
+The grapes selected for Sole Fetească Regală come predominantly from the terraces of Valea Săldăbaș with western exposure. The longer ripening period in these parcels allows the grapes to develop structure and complex aromatic nuances. The wine is pressed, clarified, and fermented at low temperatures to preserve the primary floral and fruity aromas, after which it undergoes 3 months of barrique aging, allowing the integration of the polyphenols typical of this variety, resulting in a body of exemplary finesse.
+`,
 };
 
 const pipe5 = {
@@ -144,7 +152,9 @@ const pipe5 = {
     qualityClassification: "",
     priceWithoutVAT: "EUR 16.5",
   },
-  fullDescription: ``,
+  fullDescription: `A dry rosé wine with a silky, light texture, accompanied by intense aromas and a supple body, making this balanced, fresh, and refreshing wine a true pleasure on warm summer days.<br><br>
+The wine is defined by intense, bright raspberry-pink hues. On the nose, it reveals fruity aromas dominated by raspberry and ripe blackberries, along with floral notes reminiscent of peonies. Sole Rosé is a dry wine with vibrant acidity, accompanied by medium to high tannins. The finish is intense, herbal, and slightly spicy. Its silky, light texture, together with its intense aromas and supple body, make this wine balanced, fresh, and invigorating.
+`,
 };
 
 const pipe6 = {
@@ -171,7 +181,9 @@ const pipe6 = {
     qualityClassification: "",
     priceWithoutVAT: "EUR 13",
   },
-  fullDescription: ``,
+  fullDescription: `“I am refreshing, lively, and expressive, like a melody with a vibrant rhythm that instantly carries your steps onto the dance floor. I invite you to celebrate with every tasting. Are you ready to get to know me?” <br><br>
+I am a clear wine with salmon-pink hues, defined by intense aromas of red fruits: strawberries, raspberries, and sour cherry jam. In the background, you will notice aromatic notes of blood orange, vine blossom, and rose water. I am a perfectly balanced rosé wine, with a delicate body and an aromatic finish. You will discover me gradually, through familiar notes and flavors, as a versatile culinary companion, ideal for pairing with a wide variety of dishes.
+`,
 };
 
 const pipe7 = {
@@ -198,7 +210,9 @@ const pipe7 = {
     qualityClassification: "",
     priceWithoutVAT: "EUR 16",
   },
-  fullDescription: ``,
+  fullDescription: `The blend of the Rusalcă Albă variety is a complete white wine that combines the fruitiness and character of Chardonnay with the finesse and aroma of Sauvignon, complemented by the richness and vibrancy of Riesling, all set on the well-balanced structure of Pinot Gris.<br><br>
+It is a lively, fresh, and harmonious wine, with an intense and pleasant aroma that intertwines the delicate scent of spring blossoms with the mineral notes characteristic of the region.
+`,
 };
 
 const pipe8 = {
@@ -225,7 +239,9 @@ const pipe8 = {
     qualityClassification: "",
     priceWithoutVAT: "EUR 13",
   },
-  fullDescription: ``,
+  fullDescription: `A well-balanced and elegant semi-dry wine, with intense floral aromas of acacia blossom and linden honey, delicate and pleasant, featuring a harmonious and well-integrated structure. The 10 g/L of residual sugar were intentionally retained to enhance the intense and appealing floral notes, while also lending the wine a graceful character. <br><br>
+Direct and approachable, with complex nuances of pineapple, mango, acacia flowers, and citrus, it is a friendly wine, suitable for any occasion.
+`,
 };
 
 const pipe9 = {
@@ -252,7 +268,9 @@ const pipe9 = {
     qualityClassification: "",
     priceWithoutVAT: "EUR 14",
   },
-  fullDescription: ``,
+  fullDescription: `Jiana, the new memorable rosé from Crama Oprișor, weaves together contrasts and synergies. The refined intensity of its pale pink hue is complemented by the freshness of enticing aromas of white cherries, peaches, and mango. <br><br>
+Well-balanced acidity, seamlessly integrated into an elegant, slightly creamy structure, along with retronasal sensations of May cherries, spices, and vanilla, moderate alcohol, and a long finish, make this wine a perfect companion for any summer day.
+`,
 };
 
 const pipe10 = {
@@ -279,7 +297,7 @@ const pipe10 = {
     qualityClassification: "",
     priceWithoutVAT: "EUR 14",
   },
-  fullDescription: ``,
+  fullDescription: `Aromatic from the very first nose, it reveals fresh notes of May cherries and strawberries, nuanced by citrus and vegetal hints. On the palate, it opens with sweet sensations, then evolves under the influence of an acidity typical of young wines, leading to a finish that is fresh, lively, elegant, and pleasant.`,
 };
 
 const pipe11 = {
@@ -306,7 +324,9 @@ const pipe11 = {
     qualityClassification: "",
     priceWithoutVAT: "EUR 13",
   },
-  fullDescription: ``,
+  fullDescription: `Produced from carefully selected grapes, carefully fermented, and aged in oak barrels, this wine is passionate, harmonious, intense, powerful, and elegant. It was macerated just the right amount to give it strength, aged long enough to impart velvety smoothness, and crafted to be enjoyed either immediately or in two to three years. <br><br>
+Its complexity pleasantly surprises after the first olfactory impression, evoking cranberries and cocoa. The elegant attack is followed by a long, enveloping palate that carries you from candied fruits to dark chocolate.
+`,
 };
 
 const pipe12 = {
@@ -333,7 +353,9 @@ const pipe12 = {
     qualityClassification: "",
     priceWithoutVAT: "EUR 12",
   },
-  fullDescription: ``,
+  fullDescription: `The flagship wine of the Caloian range, Fetească Neagră quickly won over its admirers. It recalls the erotic, postmodern surprise of a lady who, at a black-and-white ball, majestically descends the marble staircase in a red flamenco dress. A wine that never goes unnoticed, is never left uncommented, and inevitably lingers in memory.<br><br>
+Although it drinks easily, it is not a simple wine, as its friendly roundness—dominated by dried plums, cherries, and black sour cherries—is merely a “setting” for sensations of truffles and cocoa, slightly intoxicated by a drop of fresh blood, immersed in seductive oak aromas.
+`,
 };
 
 const pipe13 = {
@@ -360,7 +382,10 @@ const pipe13 = {
     qualityClassification: "",
     priceWithoutVAT: "EUR 17",
   },
-  fullDescription: ``,
+  fullDescription: `In Drăgaica Roșie, the elegance of Fetească Neagră blends with the strength of Cabernet Sauvignon, the velvety texture of Merlot, and the spiciness of Shiraz. It is balanced and harmonious, with intense and pleasant nuances that reveal aromas of dried plums, blackcurrants, lightly toasted wood, and milk chocolate.<br><br>
+The resulting wine is intense and well-balanced, with powerful notes of blackcurrant, dried plum, cocoa, and lightly toasted oak. The well-ripened tannins are balanced by a pleasant acidity, well-integrated alcohol, and a full body with a long finish. <br><br>
+It pairs easily with a variety of pork, beef, or lamb dishes, while its suppleness, complexity, and convivial character make it a perfect companion for friendly gatherings, business meetings, or evenings spent with family.
+`,
 };
 
 const pipe14 = {
@@ -387,7 +412,10 @@ const pipe14 = {
     qualityClassification: "",
     priceWithoutVAT: "EUR 32",
   },
-  fullDescription: ``,
+  fullDescription: `Noted for its intense color and persistent aromas of candied red fruits enveloped in dark chocolate, Crama Oprișor’s Fetească Neagră introduces itself with an elegant first impression. The sensation continues with a long, enveloping finish, marked by the slightly assertive character of powerful yet well-ripened tannins, perfectly rounded during the extended aging period in oak barrels. <br><br>
+It is at once a powerful yet voluptuous wine, generous in its energy, yet well-structured and balanced—perfect for an elaborate and sophisticated gastronomic evening or for a personal moment of reflection. <br><br>
+For the label, we chose to strongly highlight the presence of the Crama Oprișor emblem, designed in the shape of the wheel of life, in communion with the natural elements that nourish it.
+`,
 };
 
 const pipe15 = {
@@ -414,7 +442,10 @@ const pipe15 = {
     qualityClassification: "DOC Dealu Mare Pietroasa",
     priceWithoutVAT: "EUR 14",
   },
-  fullDescription: ``,
+  fullDescription: `Produced from clone 29 Bl, approved in 2006 at the Research and Development Station for Viticulture and Winemaking in Blaj, this wine is a gesture of gratitude to all those who have contributed over time to research and production.<br><br>
+
+The wine is velvety, with discreet floral notes as well as hints of ripe fruit, a medium body, and a long finish—worthy of a Fetească Albă matured on fine lees.
+`,
 };
 
 const pipe16 = {
@@ -441,7 +472,9 @@ const pipe16 = {
     qualityClassification: "DOC Dealu Mare Pietroasa",
     priceWithoutVAT: "EUR 14",
   },
-  fullDescription: ``,
+  fullDescription: `Produced from clone 5 Pt, approved in 1989 at the Pietroasa Research Station, this wine is a gesture of gratitude to all those who have contributed over time to research and production.<br><br>
+The wine is powerful and extractive, with well-defined notes of Tămâioasă Românească developed during aging on fine lees, complemented by exotic aromas that provide complexity and a balanced palate. The fine lees aging is perceptible, offering subtle hints of bread, butter, and that characteristic yeasty aroma or flavor, which, together with medium acidity and the phenolic notes typical of Tămâioasă, create a pleasantly balanced taste.
+`,
 };
 
 const list = [

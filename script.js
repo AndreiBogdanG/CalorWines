@@ -164,7 +164,7 @@ const noErrorDiv = `
   </div>
 
   
-  ${noErrorSpecsDiv}
+  
 
 
   <div class="itemDescription">
@@ -185,6 +185,7 @@ const noErrorDiv = `
       class="fullImage w-full"
     />
   </div>
+  ${noErrorSpecsDiv}
 
    <!-- Pret -->
 <div class="itemDescription">
