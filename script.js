@@ -146,8 +146,8 @@ if (list[item].specs) {
   <div id="bigSpecsDiv">
            <div id="specsDiv">
            <span><span class="specText">Color: </span><span>  ${list[item].specs.color};</span></span>
-           <span class="middleSpecsText"><span class="specText">Year: </span><span>   ${list[item].specs.year};</span></span>
-           <span><span class="specText">Wine type: </span><span>   ${list[item].specs.wineType};</span></span>
+           <span class="middleSpecsText"><span class="specText">Wine type: </span><span>   ${list[item].specs.wineType};</span></span>
+           <span><span class="specText">Alcohol content: </span><span>   ${list[item].specs.alcoholContent};</span></span>
            
            </div>
 
