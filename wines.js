@@ -40,7 +40,7 @@ On the palate, it is light and fruit-driven, with vibrant hints of pink grapefru
 };
 
 const pipe2 = {
-  item: "1",
+  item: "2",
   image: "Gallery/Rasova/Sur-Mer-Rose.png",
   image1: "",
   image2: "",
@@ -67,7 +67,7 @@ const pipe2 = {
 };
 
 const pipe3 = {
-  item: "1",
+  item: "3",
   image: "Gallery/Rasova/La-Plage-White.png",
   image1: "",
   image2: "",
@@ -81,7 +81,7 @@ const pipe3 = {
   btnText2: "",
   dataAosDelay: "0",
   specs: {
-    color: "Rosé",
+    color: "White",
     year: "",
     grapeVariety: "",
     wineType: "",
@@ -94,7 +94,7 @@ const pipe3 = {
 };
 
 const pipe4 = {
-  item: "1",
+  item: "4",
   image: "Gallery/Recas/Sole-Feteasca-Regala.png",
   image1: "",
   image2: "",
@@ -121,14 +121,14 @@ const pipe4 = {
 };
 
 const pipe5 = {
-  item: "1",
+  item: "5",
   image: "Gallery/Recas/Sole-Rose.png",
   image1: "",
   image2: "",
   image3: "",
   image4: "",
   image5: "",
-  title: "Sole Feteasca Regala",
+  title: "Sole Rosé",
   shortDescription: `Rosé`,
   link: "",
   btnText1: "Details",
@@ -148,7 +148,7 @@ const pipe5 = {
 };
 
 const pipe6 = {
-  item: "1",
+  item: "6",
   image: "Gallery/Recas/IMplicit-Rose.png",
   image1: "",
   image2: "",
@@ -175,7 +175,7 @@ const pipe6 = {
 };
 
 const pipe7 = {
-  item: "1",
+  item: "7",
   image: "Gallery/Oprisor/Rusalca-White.png",
   image1: "",
   image2: "",
@@ -202,7 +202,7 @@ const pipe7 = {
 };
 
 const pipe8 = {
-  item: "1",
+  item: "8",
   image: "Gallery/Oprisor/La-Cetate-Tamaioasa-Romaneasca.png",
   image1: "",
   image2: "",
@@ -229,7 +229,7 @@ const pipe8 = {
 };
 
 const pipe9 = {
-  item: "1",
+  item: "9",
   image: "Gallery/Oprisor/Jiana-Rose.png",
   image1: "",
   image2: "",
@@ -256,7 +256,7 @@ const pipe9 = {
 };
 
 const pipe10 = {
-  item: "1",
+  item: "10",
   image: "Gallery/Oprisor/Caloian-Rose.png",
   image1: "",
   image2: "",
@@ -283,7 +283,7 @@ const pipe10 = {
 };
 
 const pipe11 = {
-  item: "1",
+  item: "11",
   image: "Gallery/Oprisor/La-Cetate-Feteasca-Neagra.png",
   image1: "",
   image2: "",
@@ -310,7 +310,7 @@ const pipe11 = {
 };
 
 const pipe12 = {
-  item: "1",
+  item: "12",
   image: "Gallery/Oprisor/Caloian-Feteasca-Neagra.png",
   image1: "",
   image2: "",
@@ -337,7 +337,7 @@ const pipe12 = {
 };
 
 const pipe13 = {
-  item: "1",
+  item: "13",
   image: "Gallery/Oprisor/Dragaica-Rosie.png",
   image1: "",
   image2: "",
@@ -364,7 +364,7 @@ const pipe13 = {
 };
 
 const pipe14 = {
-  item: "1",
+  item: "14",
   image: "Gallery/Oprisor/Feteasca-Neagra-Premium.png",
   image1: "",
   image2: "",
@@ -391,7 +391,7 @@ const pipe14 = {
 };
 
 const pipe15 = {
-  item: "1",
+  item: "15",
   image: "Gallery/Pietroasa/Selectie-Feteasca-Alba.png",
   image1: "",
   image2: "",
@@ -418,7 +418,7 @@ const pipe15 = {
 };
 
 const pipe16 = {
-  item: "1",
+  item: "16",
   image: "Gallery/Pietroasa/Selectie-Tamaioasa-Romaneasca.png",
   image1: "",
   image2: "",

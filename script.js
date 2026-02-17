@@ -57,7 +57,8 @@ for (let i = 1; i < list.length; i++) {
       <div class="text-center mobile-text-center p-4">
         <h3 class="text-white text-xl font-bold">${list[i].title}</h3>
         <p class="text-amber-200">${list[i].shortDescription}</p>
-       
+        <p class="text-amber-200">Price without VAT:</p>
+        <p class="text-amber-200">${list[i].specs.priceWithoutVAT}</p>
       </div>
     </div>
     
@@ -147,11 +148,7 @@ if (list[item].specs) {
            <span><span class="specText">Color: </span><span>  ${list[item].specs.color};</span></span>
            <span class="middleSpecsText"><span class="specText">Year: </span><span>   ${list[item].specs.year};</span></span>
            <span><span class="specText">Wine type: </span><span>   ${list[item].specs.wineType};</span></span>
-           <span class="specSpecsText"><span class="specText">Bottle Volume: </span><span>   ${list[item].specs.bottleVolume};</span></span>
-           <span class="rightSpecsText"><span class="specText">Alcohol content: </span><span>   ${list[item].specs.alcoholContent};</span></span>
-           <span><span class="specText">Quality classification </span><span>   ${list[item].specs.qualityClassification};</span></span>
-           <span class="specSpecsText"><span class="specText">Price (without VAT): </span><span>   ${list[item].specs.priceWithoutVAT};</span></span>
-
+           
            </div>
 
   </div>`;
@@ -168,7 +165,6 @@ const noErrorDiv = `
 
   
   ${noErrorSpecsDiv}
-
 
 
   <div class="itemDescription">
@@ -189,6 +185,13 @@ const noErrorDiv = `
       class="fullImage w-full"
     />
   </div>
+
+   <!-- Pret -->
+<div class="itemDescription">
+    Price without VAT: ${list[item].specs.priceWithoutVAT}                
+  </div>
+
+
 
   <!-- Butoane -->
   <div class="center-div">
