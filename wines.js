@@ -10,7 +10,7 @@ const mesajEroare = {
   fullDescription: ``,
 };
 
-const pipe1 = {
+const pipe4 = {
   item: "1",
   image: "Gallery/Rasova/La-Plage-D-Amour-Rose.jpg",
   image1: "",
@@ -39,7 +39,7 @@ const pipe1 = {
 The palate is fruity and light, with intriguing notes of pink grapefruit and pomegranate, finishing with a tonic, fresh, and crisp sensation. An easy-drinking, very approachable wine that captivates with its intense aromas.`,
 };
 
-const pipe2 = {
+const pipe12 = {
   item: "2",
   image: "Gallery/Rasova/Sur-Mer-Rose.png",
   image1: "",
@@ -71,13 +71,13 @@ const pipe2 = {
 
 const pipe3 = {
   item: "3",
-  image: "Gallery/Rasova/La-Plage-White.png",
+  image: "Gallery/Rasova/La-Plage-D-Amour-White.jpg",
   image1: "",
   image2: "",
   image3: "",
   image4: "",
   image5: "",
-  title: "La Plage",
+  title: "La Plage D'Amour",
   shortDescription: `White`,
   link: "",
   btnText1: "Details",
@@ -89,17 +89,17 @@ const pipe3 = {
     grapeVariety: "",
     wineType: "Dry",
     bottleVolume: "75 cl",
-    alcoholContent: "12.5%",
+    alcoholContent: "12.6%",
     qualityClassification: "",
     priceWithoutVAT: "EUR 12",
   },
-  fullDescription: `It expresses itself clearly and precisely, in well-defined tones of wildflowers, apricot blossoms, green apples and pears, and lime, supported in the background by delicate, sweet hints of pollen. Easy to drink and approachable, it communicates instantly through the vibrant, friendly, and fresh sensations it provides.<br><br>
+  fullDescription: `It expresses itself clearly and precisely, in well-defined tones of wildflowers, apricot blossoms, green apples and pears, and lime, supported in the background by delicate, slightly sweet notes of pollen. Easy to drink and approachable, it quickly makes itself understood thanks to the vibrant, friendly, and fresh sensations it offers.<br><br>
+ Its juicy yet crisp palate opens with notes of green apples, followed by a second phase balanced by acidic-vegetal hints of apricots and unripe cherry plums. On the finish, it leaves a lightly grainy texture due to its persistent acidity, while subtle spicy-alcoholic sensations lend it freshness and volume.
 
-Its juicy and crisp palate opens with notes of green apple, followed by a mid-palate balanced by acid-vegetal accents of apricots and unripe mirabelle plums. The finish leaves a slightly granular texture due to its persistent acidity, while spicy-alcoholic sensations add freshness and volume.
 `,
 };
 
-const pipe4 = {
+const pipe1 = {
   item: "4",
   image: "Gallery/Recas/Sole-Feteasca-Regala.png",
   image1: "",
@@ -329,7 +329,7 @@ Its complexity pleasantly surprises after the first olfactory impression, evokin
 `,
 };
 
-const pipe12 = {
+const pipe2 = {
   item: "12",
   image: "Gallery/Oprisor/Caloian-Feteasca-Neagra.png",
   image1: "",
@@ -479,6 +479,8 @@ The wine is powerful and extractive, with well-defined notes of Tămâioasă Rom
 
 const list = [
   mesajEroare,
+  
+ 
   pipe1,
   pipe2,
   pipe3,
