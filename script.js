@@ -89,8 +89,8 @@ for (let i = 1; i < list.length; i++) {
       class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition"
     >
       <div class="text-center mobile-text-center p-4">
-        <h3 class="text-white text-xl font-bold">${list[i].title}</h3>
-        <p class=" mobile-text">${list[i].shortDescription}</p>
+        <h3 class="text-amber-200 text-xl font-bold">${list[i].title}</h3>
+        <p class="text-amber-200 mobile-text">${list[i].shortDescription}</p>
         <p class="text-amber-200 mobile-text">Price without VAT:</p>
         <p class="text-amber-200 mobile-text">${list[i].specs.priceWithoutVAT}</p>
       </div>
