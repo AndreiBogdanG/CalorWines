@@ -11,7 +11,7 @@ const mesajEroare = {
 };
 
 const pipe4 = {
-  item: "1",
+  item: "4",
   image: "Gallery/Rasova/La-Plage-D-Amour-Rose.jpg",
   image1: "",
   image2: "",
@@ -40,7 +40,7 @@ The palate is fruity and light, with intriguing notes of pink grapefruit and pom
 };
 
 const pipe12 = {
-  item: "2",
+  item: "12",
   image: "Gallery/Rasova/Sur-Mer-Rose.jpg",
   image1: "",
   image2: "",
@@ -100,7 +100,7 @@ const pipe3 = {
 };
 
 const pipe1 = {
-  item: "4",
+  item: "1",
   image: "Gallery/Recas/Sole-Feteasca-Regala.jpg",
   image1: "",
   image2: "",
@@ -330,7 +330,7 @@ Its complexity pleasantly surprises after the first olfactory impression, evokin
 };
 
 const pipe2 = {
-  item: "12",
+  item: "2",
   image: "Gallery/Oprisor/Caloian-Feteasca-Neagra.jpg",
   image1: "",
   image2: "",
