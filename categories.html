@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Romanian Wines</title>
+    <link rel="icon" type="image/x-icon" href="Gallery/ico.ico" />
+   
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link href="dist/styles.css" rel="stylesheet" />
+   </head>
+
+
+<!-- popup 18 ani: -->
+<div id="ageModal">
+  <div id="ageBox">
+    <h2>Are you over 18?</h2>
+    <p>This website contains information about alcoholic beverages.</p>
+    <div style="margin-top:20px;">
+      <button id="ageYes" class="age-btn age-yes">Da</button>
+      <button id="ageNo" class="age-btn age-no">Nu</button>
+    </div>
+  </div>
+</div>
+<!-- sfarsit popup 18 ani: -->
+
+
+
+
+
+  <body class="font-serif bg-amber-50">
+
+    <!-- Navigation -->
+    <nav class="briar-brown text-white sticky top-0 z-50 shadow-lg">
+      <div
+        class="container mx-auto px-6 py-4 flex justify-between items-center"
+      >
+        <a href="index.html" class="text-2xl font-bold flex items-center">
+          <img id="signature" src="Gallery/logo-small.png" />
+        </a>
+        <div class="hidden md:flex space-x-8">
+          <a href="index.html" class="menu_text">Home</a>
+          <a href="story.html" class="menu_text">Our Story</a>
+          <a href="heritage.html" class="menu_text">Heritage</a>
+          <a href="order.html" class="menu_text">How to Order</a>
+          <a href="contact.html" class="menu_text">Contact</a>
+        </div>
+        <button class="md:hidden focus:outline-none" id="menu-btn">
+          <i data-feather="menu"></i>
+        </button>
+      </div>
+      <!-- Mobile menu -->
+      <div class="md:hidden hidden briar-dark py-2" id="mobile-menu">
+        <div class="container mx-auto px-6 flex flex-col space-y-3">
+          <a href="index.html" class="hover:text-amber-200 transition"
+            >Home</a
+          >
+          <a href="story.html" class="hover:text-amber-200 transition"
+            >Our Story</a
+          >
+          <a href="heritage.html" class="hover:text-amber-200 transition"
+            >Heritage</a
+          >
+          
+          <a href="order.html" class="hover:text-amber-200 transition"
+            >How to Order</a
+          >
+          <a href="contact.html" class="hover:text-amber-200 transition"
+            >Contact</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-20 bg-white">
+      <div class="container mx-auto px-6">
+        <h2
+          class="text-3xl md:text-4xl font-bold text-center text-briar mb-16"
+          data-aos="fade-up"
+        >
+          Categories
+        </h2>
+
+
+ <section id="gallery" class="py-20 bg-white">
+      <div class="container mx-auto px-6">
+        <h2
+          class="text-3xl md:text-4xl font-bold text-center text-briar mb-16"
+          data-aos="fade-up"
+        >
+          Featured
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Pipe 1 -->
+          <a href="product.html?item=1">
+            <div
+              class="group relative overflow-hidden rounded-lg shadow-lg"
+              data-aos="fade-up"
+        >
+              <!-- <a href="product.html?item=1"> -->
+              <img
+                src="Gallery/Recas/Sole-Feteasca-Regala.jpg"
+                alt="Sole Feteasca Regala"
+                
+              />
+
+              <div
+                class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition"
+              >
+                <div class="text-center p-4">
+                  <h3 class="text-white text-xl font-bold">Sole Feteasca Regala</h3>
+                  <p class="text-amber-200">White</p>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <!-- Pipe 2 -->
+          <a href="product.html?item=2">
+            <div
+              class="group relative overflow-hidden rounded-lg shadow-lg"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <img
+                src="Gallery/Oprisor/Caloian-Feteasca-Neagra.jpg"
+                alt="Caloian Feteasca Neagra"
+              />
+              <div
+                class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition"
+              >
+                <div class="text-center p-4">
+                  <h3 class="text-white text-xl font-bold">Caloian Feteasca Neagra</h3>
+                  <p class="text-amber-200">Red</p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!-- Pipe 3 -->
+          <a href="product.html?item=8">
+            <div
+              class="group relative overflow-hidden rounded-lg shadow-lg"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <img
+                src="Gallery/Oprisor/La-Cetate-Tamaioasa-Romaneasca.jpg"
+                alt="La Cetate Tamaioasa Romaneasca"
+              />
+              <div
+                class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition"
+              >
+                <div class="text-center p-4">
+                  <h3 class="text-white text-xl font-bold">La Cetate Tamaioasa Romaneasca</h3>
+                  <p class="text-amber-200">
+                    White
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+          </div>
+       
+
+          <!-- Aici se introduc cardurile -->
+          <!-- <div
+            id="gallery-div"
+            class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-8"
+          > -->
+            <!-- Pana aici se introduc cardurile -->
+          </div>
+        </div>
+
+        <div class="text-center mt-12">
+          
+          <a
+            href="index.html"
+            class="btn inline-block briar-brown hover:briar-dark text-white px-8 py-3 rounded-full text-lg font-medium transition"
+            >Back to Main Page</a
+          >
+        </div>
+      </div>
+    </section>
+
+    
+    <!-- Footer -->
+    <footer class="briar-brown text-white py-12">
+      
+        <div
+          class="border-t border-amber-800 mt-8 pt-8 text-center text-sm text-amber-200"
+        >
+           <p>&copy; 2026 CaLor VINUM. All Rights Reserved.</p>
+          </div>
+      </div>
+    </footer>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>

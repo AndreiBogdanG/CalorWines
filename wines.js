@@ -41,7 +41,7 @@ The palate is fruity and light, with intriguing notes of pink grapefruit and pom
 
 const pipe12 = {
   item: "2",
-  image: "Gallery/Rasova/Sur-Mer-Rose.png",
+  image: "Gallery/Rasova/Sur-Mer-Rose.jpg",
   image1: "",
   image2: "",
   image3: "",
@@ -101,7 +101,7 @@ const pipe3 = {
 
 const pipe1 = {
   item: "4",
-  image: "Gallery/Recas/Sole-Feteasca-Regala.png",
+  image: "Gallery/Recas/Sole-Feteasca-Regala.jpg",
   image1: "",
   image2: "",
   image3: "",
@@ -130,7 +130,7 @@ The grapes selected for Sole Fetească Regală come predominantly from the terra
 
 const pipe5 = {
   item: "5",
-  image: "Gallery/Recas/Sole-Rose.png",
+  image: "Gallery/Recas/Sole-Rose.jpg",
   image1: "",
   image2: "",
   image3: "",
@@ -159,7 +159,7 @@ The wine is defined by intense, bright raspberry-pink hues. On the nose, it reve
 
 const pipe6 = {
   item: "6",
-  image: "Gallery/Recas/IMplicit-Rose.png",
+  image: "Gallery/Recas/IMplicit-Rose.jpg",
   image1: "",
   image2: "",
   image3: "",
@@ -188,7 +188,7 @@ I am a clear wine with salmon-pink hues, defined by intense aromas of red fruits
 
 const pipe7 = {
   item: "7",
-  image: "Gallery/Oprisor/Rusalca-White.png",
+  image: "Gallery/Oprisor/Rusalca-White.jpg",
   image1: "",
   image2: "",
   image3: "",
@@ -217,7 +217,7 @@ It is a lively, fresh, and harmonious wine, with an intense and pleasant aroma t
 
 const pipe8 = {
   item: "8",
-  image: "Gallery/Oprisor/La-Cetate-Tamaioasa-Romaneasca.png",
+  image: "Gallery/Oprisor/La-Cetate-Tamaioasa-Romaneasca.jpg",
   image1: "",
   image2: "",
   image3: "",
@@ -246,7 +246,7 @@ Direct and approachable, with complex nuances of pineapple, mango, acacia flower
 
 const pipe9 = {
   item: "9",
-  image: "Gallery/Oprisor/Jiana-Rose.png",
+  image: "Gallery/Oprisor/Jiana-Rose.jpg",
   image1: "",
   image2: "",
   image3: "",
@@ -275,7 +275,7 @@ Well-balanced acidity, seamlessly integrated into an elegant, slightly creamy st
 
 const pipe10 = {
   item: "10",
-  image: "Gallery/Oprisor/Caloian-Rose.png",
+  image: "Gallery/Oprisor/Caloian-Rose.jpg",
   image1: "",
   image2: "",
   image3: "",
@@ -302,7 +302,7 @@ const pipe10 = {
 
 const pipe11 = {
   item: "11",
-  image: "Gallery/Oprisor/La-Cetate-Feteasca-Neagra.png",
+  image: "Gallery/Oprisor/La-Cetate-Feteasca-Neagra.jpg",
   image1: "",
   image2: "",
   image3: "",
@@ -331,7 +331,7 @@ Its complexity pleasantly surprises after the first olfactory impression, evokin
 
 const pipe2 = {
   item: "12",
-  image: "Gallery/Oprisor/Caloian-Feteasca-Neagra.png",
+  image: "Gallery/Oprisor/Caloian-Feteasca-Neagra.jpg",
   image1: "",
   image2: "",
   image3: "",
@@ -360,7 +360,7 @@ Although it drinks easily, it is not a simple wine, as its friendly roundness—
 
 const pipe13 = {
   item: "13",
-  image: "Gallery/Oprisor/Dragaica-Rosie.png",
+  image: "Gallery/Oprisor/Dragaica-Rosie.jpg",
   image1: "",
   image2: "",
   image3: "",
@@ -390,7 +390,7 @@ It pairs easily with a variety of pork, beef, or lamb dishes, while its supplene
 
 const pipe14 = {
   item: "14",
-  image: "Gallery/Oprisor/Feteasca-Neagra-Premium.png",
+  image: "Gallery/Oprisor/Feteasca-Neagra-Premium.jpg",
   image1: "",
   image2: "",
   image3: "",
@@ -420,7 +420,7 @@ For the label, we chose to strongly highlight the presence of the Crama Oprișor
 
 const pipe15 = {
   item: "15",
-  image: "Gallery/Pietroasa/Selectie-Feteasca-Alba.png",
+  image: "Gallery/Pietroasa/Selectie-Feteasca-Alba.jpg",
   image1: "",
   image2: "",
   image3: "",
@@ -450,7 +450,7 @@ The wine is velvety, with discreet floral notes as well as hints of ripe fruit, 
 
 const pipe16 = {
   item: "16",
-  image: "Gallery/Pietroasa/Selectie-Tamaioasa-Romaneasca.png",
+  image: "Gallery/Pietroasa/Selectie-Tamaioasa-Romaneasca.jpg",
   image1: "",
   image2: "",
   image3: "",
@@ -479,8 +479,7 @@ The wine is powerful and extractive, with well-defined notes of Tămâioasă Rom
 
 const list = [
   mesajEroare,
-  
- 
+
   pipe1,
   pipe2,
   pipe3,
@@ -497,6 +496,28 @@ const list = [
   pipe14,
   pipe15,
   pipe16,
+];
+
+export const red_list = [mesajEroare, pipe2, pipe11, pipe13, pipe14];
+
+export const white_list = [
+  mesajEroare,
+  pipe1,
+  pipe3,
+  pipe7,
+  pipe8,
+  pipe15,
+  pipe16,
+];
+
+export const rose_list = [
+  mesajEroare,
+  pipe4,
+  pipe5,
+  pipe6,
+  pipe9,
+  pipe10,
+  pipe12,
 ];
 
 export default list;

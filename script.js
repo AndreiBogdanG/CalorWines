@@ -1,6 +1,40 @@
 import list from "./wines.js";
+import red_list from "./wines.js";
+import white_list from "./wines.js";
+import rose_list from "./wines.js";
 
 const mainDiv = document.getElementById("gallery-div");
+
+//Popup peste 18 ani:
+document.addEventListener("DOMContentLoaded", function () {
+  const modal = document.getElementById("ageModal");
+  const btnYes = document.getElementById("ageYes");
+  const btnNo = document.getElementById("ageNo");
+
+  function openModal() {
+    modal.classList.add("active");
+    document.body.classList.add("modal-open");
+  }
+
+  function closeModal() {
+    modal.classList.remove("active");
+    document.body.classList.remove("modal-open");
+  }
+
+  // Dacă NU este verificat în sesiunea curentă
+  if (!sessionStorage.getItem("ageVerified")) {
+    openModal();
+  }
+
+  btnYes.addEventListener("click", function () {
+    sessionStorage.setItem("ageVerified", "true");
+    closeModal();
+  });
+
+  btnNo.addEventListener("click", function () {
+    window.location.href = "https://www.google.com";
+  });
+});
 
 // Mobile menu toggle
 document.getElementById("menu-btn").addEventListener("click", function () {
@@ -20,7 +54,7 @@ function changeLargeImage(imageSrc) {
   largeImage.src = imageSrc; // Schimbă sursa imaginii mari cu sursa imaginii mici
 }
 
-// Create the cards:
+// Create the gallery cards:
 for (let i = 1; i < list.length; i++) {
   // Verifica daca linkul e "#" si daca da, adauga proprietatea "onclick = return false"
   let onClickProp = "";
@@ -51,14 +85,14 @@ for (let i = 1; i < list.length; i++) {
     /> 
 
         
-    <div
+    <div 
       class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition"
     >
       <div class="text-center mobile-text-center p-4">
         <h3 class="text-white text-xl font-bold">${list[i].title}</h3>
-        <p class="text-amber-200">${list[i].shortDescription}</p>
-        <p class="text-amber-200">Price without VAT:</p>
-        <p class="text-amber-200">${list[i].specs.priceWithoutVAT}</p>
+        <p class=" mobile-text">${list[i].shortDescription}</p>
+        <p class="text-amber-200 mobile-text">Price without VAT:</p>
+        <p class="text-amber-200 mobile-text">${list[i].specs.priceWithoutVAT}</p>
       </div>
     </div>
     
@@ -113,20 +147,8 @@ const errorDiv = `
   </div>
 `;
 
-// Genereaza divul cu imagini mici in functie de cate sunt:
-// Generează imaginile mici doar dacă există în list[item]
 let generatedSmallImages = "";
 
-// Adaugă întotdeauna prima imagine (principală)
-// generatedSmallImages += `
-//   <img
-//     src="${list[item].image}"
-//     alt="Image"
-//     onerror="this.onerror=null; this.src='Gallery/placeholder.jpg'"
-//     class="small-image cursor-pointer w-1/6" />
-// `;
-
-// Verifică dinamic image1 până la image15
 for (let i = 1; i <= 15; i++) {
   const key = `image${i}`;
   if (list[item][key]) {
@@ -146,7 +168,7 @@ if (list[item].specs) {
   <div id="bigSpecsDiv">
            <div id="specsDiv">
            <span><span class="specText">Color: </span><span>  ${list[item].specs.color};</span></span>
-           <span class="middleSpecsText"><span class="specText">Wine type: </span><span>   ${list[item].specs.wineType};</span></span>
+           <span><span class="specText">Wine type: </span><span>   ${list[item].specs.wineType};</span></span>
            <span><span class="specText">Alcohol content: </span><span>   ${list[item].specs.alcoholContent};</span></span>
            
            </div>

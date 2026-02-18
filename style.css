@@ -4,27 +4,105 @@ body {
   overflow-x: hidden;
 }
 
+/* Popup 18 ani: */
+/* Overlay */
+#ageModal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(6px);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+/* Popup box */
+#ageBox {
+  background: #ffffff;
+  padding: 40px;
+  max-width: 400px;
+  width: 90%;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+
+  transform: scale(0.9);
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+/* Active state */
+#ageModal.active {
+  display: flex;
+}
+
+#ageModal.active #ageBox {
+  transform: scale(1);
+  opacity: 1;
+}
+
+/* Buttons */
+.age-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 5px;
+  transition: 0.2s ease;
+}
+
+.age-yes {
+  background: #16a34a;
+  color: white;
+}
+
+.age-yes:hover {
+  background: #15803d;
+}
+
+.age-no {
+  background: #dc2626;
+  color: white;
+}
+
+.age-no:hover {
+  background: #b91c1c;
+}
+
+/* Blochează scroll */
+body.modal-open {
+  overflow: hidden;
+}
+
 .hero-bg {
   background-image:
-    linear-gradient(rgba(92, 64, 51, 0.7), rgba(92, 64, 51, 0.7)),
+    linear-gradient(rgba(106, 27, 44, 0.75), rgba(34, 10, 15, 0.9)),
     url(Gallery/bkground.jpg);
   height: 500px;
 }
 
 .briar-brown {
-  background-color: #5c4033;
+  background-color: #490f1c; /* rosu vin inchis */
+  margin: 0;
+  padding: 0;
 }
+
 .briar-light {
-  background-color: #8b5a2b;
+  background-color: #6a1b2c; /* rosu rubiniu */
 }
+
 .briar-dark {
-  background-color: #3e2723;
+  background-color: #3b0d19; /* visiniu foarte inchis */
 }
+
 .text-briar {
-  color: #5c4033;
+  color: #6a1b2c;
 }
+
 .border-briar {
-  border-color: #5c4033;
+  border-color: #6a1b2c;
 }
 
 #pipe_img {
@@ -75,11 +153,18 @@ body {
 }
 
 #specsDiv {
-  background-color: rgb(239, 241, 241);
-  display: grid;
+  background-color: rgb(245, 220, 215);
+  /* display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding-left: 2rem;
+  padding-left: 2rem; */
   /* gap: 2rem; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  margin: auto;
+  border-radius: 20px;
+  padding: 1.5rem;
 }
 
 #story-img-div {
@@ -91,6 +176,11 @@ body {
   flex-direction: column;
   align-items: center;
   width: 60%;
+}
+
+#story {
+  display: flex;
+  justify-content: space-around;
 }
 
 #our-story-image {
@@ -287,10 +377,7 @@ footer {
   }
 
   #specsDiv {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    /* gap: 2rem; */
-    padding: 0;
+    padding: 1rem;
   }
 
   .small-image {
@@ -323,9 +410,5 @@ footer {
 
   #gallery-div > div {
     width: 100%; /* asigură dimensiuni vizibile */
-  }
-
-  .mobile-text-center {
-    display: none;
   }
 }
