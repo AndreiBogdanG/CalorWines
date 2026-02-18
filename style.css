@@ -411,4 +411,7 @@ footer {
   #gallery-div > div {
     width: 100%; /* asigură dimensiuni vizibile */
   }
+  .mobile-text-center {
+    opacity: 0;
+  }
 }
