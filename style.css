@@ -411,7 +411,11 @@ footer {
   #gallery-div > div {
     width: 100%; /* asigură dimensiuni vizibile */
   }
-  .mobile-text-center {
-    opacity: 0;
+}
+
+/* hover doar pe dispozitive cu mouse */
+@media (hover: hover) and (pointer: fine) {
+  .group:hover .product-overlay {
+    opacity: 1;
   }
 }

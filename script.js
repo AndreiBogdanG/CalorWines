@@ -86,7 +86,7 @@ for (let i = 1; i < list.length; i++) {
 
         
     <div 
-      class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition"
+      class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 transition product-overlay"
     >
       <div class="text-center mobile-text-center p-4">
         <h3 class="text-amber-200 text-xl font-bold">${list[i].title}</h3>
