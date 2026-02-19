@@ -37,12 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-//mobil - dezactiveaza meniul de long press pe imagine:
-img {
-  -webkit-touch-callout: none; /* iOS Safari */
-  -webkit-user-select: none;
-  user-select: none;
-}
+
 
 
 
