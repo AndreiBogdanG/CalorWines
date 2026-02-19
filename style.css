@@ -17,6 +17,10 @@ body {
   z-index: 9999;
 }
 
+.wine-name-mobile {
+  display: none;
+}
+
 /* Popup box */
 #ageBox {
   background: #ffffff;
@@ -362,6 +366,12 @@ footer {
 
   #first-page-logo-container {
     /* height: 50vh; */
+  }
+
+  .wine-name-mobile {
+    display: inline;
+    font-size: 0.5rem;
+    text-align: center;
   }
 
   #logo {

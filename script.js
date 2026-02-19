@@ -36,12 +36,6 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-
-
-
-
-
-
 // Mobile menu toggle
 document.getElementById("menu-btn").addEventListener("click", function () {
   const menu = document.getElementById("mobile-menu");
@@ -101,6 +95,7 @@ for (let i = 1; i < list.length; i++) {
         <p class="text-amber-200 mobile-text">${list[i].specs.priceWithoutVAT}</p>
       </div>
     </div>
+    <div class="wine-name-mobile">${list[i].title}</div>
     
   `;
   if (mainDiv) {
