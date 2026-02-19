@@ -354,6 +354,12 @@ footer {
     /* margin-top: 0.5rem; */
   }
 
+  #gallery-div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 3 coloane */
+    gap: 2rem;
+  }
+
   #first-page-logo-container {
     /* height: 50vh; */
   }
