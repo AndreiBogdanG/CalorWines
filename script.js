@@ -138,10 +138,10 @@ const errorDiv = `
     </div>
     <div class="center-div">          
       <a
-        href="gallery.html"
+        href="collection.html"
         class="btn inline-block briar-brown hover:briar-dark text-white px-8 py-3 rounded-full text-lg font-medium transition"
       >
-        Back to Gallery
+        Back to the Wine Collection
       </a>    
     </div>
   </div>
@@ -221,10 +221,10 @@ const noErrorDiv = `
  
     
     <a
-      href="gallery.html"
+      href="collection.html"
       class="btn inline-block briar-brown hover:briar-dark text-white px-8 py-3 rounded-full text-lg font-medium transition"
     >
-      Back to Gallery
+      Back to the Wine Collection
     </a>    
   </div>
 `;

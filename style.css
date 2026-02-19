@@ -341,6 +341,10 @@ footer {
     margin-bottom: 100px;
   }
 
+  #first-page-logo-container {
+    height: 50vh;
+  }
+
   #logo {
     width: 40%;
   }
