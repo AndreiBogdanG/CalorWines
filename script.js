@@ -36,6 +36,24 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+
+//mobil - dezactiveaza meniul de long press pe imagine:
+img {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+
+
+
+
+
+
+
+
+
+
 // Mobile menu toggle
 document.getElementById("menu-btn").addEventListener("click", function () {
   const menu = document.getElementById("mobile-menu");
