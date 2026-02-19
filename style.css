@@ -354,10 +354,6 @@ footer {
     margin-bottom: 100px;
   }
 
-  .hero-section {
-    /* margin-top: 0.5rem; */
-  }
-
   #gallery-div {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* 3 coloane */
@@ -372,6 +368,7 @@ footer {
     display: inline;
     font-size: 0.5rem;
     text-align: center;
+    margin-bottom: 0.5rem;
   }
 
   #logo {
