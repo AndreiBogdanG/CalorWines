@@ -1,14 +1,17 @@
 module.exports = {
   content: [
-    "./index.html", // Adaugă locațiile fișierelor HTML
+    "./index.html",
     "./gallery.html",
     "./product.html",
     "./script.js",
     "./script-1.js",
-    // Dacă ai fișiere .html sau .js în src
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        gold: "#D4AF37",
+      },
+    },
   },
   plugins: [],
 };
