@@ -42,13 +42,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-
-
-
-
-
-
-
 // Mobile menu toggle
 document.getElementById("menu-btn").addEventListener("click", function () {
   const menu = document.getElementById("mobile-menu");
