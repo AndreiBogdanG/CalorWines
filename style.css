@@ -360,10 +360,6 @@ footer {
     gap: 2rem;
   }
 
-  #first-page-logo-container {
-    /* height: 50vh; */
-  }
-
   .wine-name-mobile {
     display: inline;
     font-size: 0.5rem;
@@ -425,7 +421,7 @@ footer {
     background-size: cover; /* umple toată zona definită */
     background-position: center; /* centrează imaginea */
     background-repeat: no-repeat;
-    height: 50vh;
+    height: 45vh;
   }
 
   /* De sters daca nu merge: */
