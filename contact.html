@@ -23,17 +23,17 @@
   </head>
 
   <!-- popup 18 ani: -->
-<div id="ageModal">
-  <div id="ageBox">
-    <h2>Are you over 18?</h2>
-    <p>This website contains information about alcoholic beverages.</p>
-    <div style="margin-top:20px;">
-      <button id="ageYes" class="age-btn age-yes">Yes</button>
-      <button id="ageNo" class="age-btn age-no">No</button>
+  <div id="ageModal">
+    <div id="ageBox">
+      <h2>Are you over 18?</h2>
+      <p>This website contains information about alcoholic beverages.</p>
+      <div style="margin-top: 20px">
+        <button id="ageYes" class="age-btn age-yes">Yes</button>
+        <button id="ageNo" class="age-btn age-no">No</button>
+      </div>
     </div>
   </div>
-</div>
-<!-- sfarsit popup 18 ani: -->
+  <!-- sfarsit popup 18 ani: -->
 
   <body class="font-serif bg-amber-50">
     <!-- Navigation -->
@@ -49,7 +49,7 @@
           <a href="story.html" class="menu_text">Our Story</a>
           <a href="heritage.html" class="menu_text">Heritage</a>
           <a href="collection.html" class="menu_text">Wine Collection</a>
-            <a href="legal.html" class="menu_text">Legal Information</a>
+          <a href="legal.html" class="menu_text">Legal Information</a>
         </div>
         <button class="md:hidden focus:outline-none" id="menu-btn">
           <i data-feather="menu"></i>
@@ -66,9 +66,11 @@
             >Heritage</a
           >
           <a href="collection.html" class="hover:text-amber-200 transition"
-            >Wine Collection</a>
+            >Wine Collection</a
+          >
           <a href="legal.html" class="hover:text-amber-200 transition"
-            >Legal Information</a>
+            >Legal Information</a
+          >
         </div>
       </div>
     </nav>
@@ -89,56 +91,19 @@
           <!-- Left side: Text -->
           <div class="md:w-1/2 mb-10 md:mb-0" data-aos="fade-right">
             <h3 class="text-2xl font-bold text-briar mb-4">Our Company:</h3>
-           <p class="text-gray-700 mb-4"> 
-             Calor Vinum LTD<br>HE487196<br>Limassol, Cyprus
-            </p> 
+            <p class="text-gray-700 mb-4">
+              Calor Vinum LTD<br />HE487196<br />Limassol, Cyprus
+            </p>
 
             <h3 class="text-2xl font-bold text-briar mb-4">Phone:</h3>
-           <p class="text-gray-700 mb-4"> 
-              You can reach us at +357 96 885642
-            </p> 
-            <!-- <p class="text-gray-700 mb-6">
-              Additionally, the platform’s international reach allows me to
-              share my creations with people around the world, while providing
-              peace of mind through their secure payment system and buyer
-              protection policies.
-            </p> -->
-            <div class="flex items-center">
-              <!-- <div class="briar-light text-white p-3 rounded-full mr-4">
-                <a href="mailto:office@artpipecraft.com">
-                  <i data-feather="mail"></i
-                ></a>
-              </div> -->
-              <!-- <p class="text-gray-700">
-                For any questions, please feel free to contact me at
-                <a href="mailto:office@artpipecraft.com"
-                  >office@artpipecraft.com</a
-                >
-              </p> -->
-              <p>Work in progress...</p>
-            </div>
+            <p class="text-gray-700 mb-4">You can reach us at +357 96 885642</p>
           </div>
-
-          <!-- Right side: Image -->
-          <!-- <div class="md:w-1/2 mb-10 md:mb-0" data-aos="fade-left">
-            <img
-              src="Gallery/etsy.jpg"
-              alt="Etsy shop"
-              class="rounded-lg shadow-xl"
-            />
-          </div> -->
         </div>
       </div>
     </section>
 
     <!-- butoane -->
     <div class="center-div">
-      <!-- <a
-        href="https://www.etsy.com/shop/artpipecraft"
-        class="btn inline-block briar-brown hover:briar-dark text-white px-8 py-3 rounded-full text-lg font-medium transition"
-      >
-        Go to Etsy Shop
-      </a> -->
       <a
         href="index.html"
         class="btn inline-block briar-brown hover:briar-dark text-white px-8 py-3 rounded-full text-lg font-medium transition"
@@ -147,35 +112,10 @@
       </a>
     </div>
 
+    <div></div>
+
     <!-- Footer -->
-    <footer class="briar-brown text-white py-12">
-      <!-- <div class="container mx-auto px-6">
-        <div class="flex flex-col md:flex-row justify-between items-center">
-          <div class="mb-6 md:mb-0">
-            <h3 class="text-2xl font-bold flex items-center">
-              <img id="signature" src="Gallery/logo4.png" />
-            </h3>
-            <p class="mt-2 text-amber-200">Wines from Romania</p>
-          </div>
-          <div class="flex space-x-6">
-            <a href="#" class="hover:text-amber-300 transition">
-              <i data-feather="instagram"></i>
-            </a>
-            <a href="#" class="hover:text-amber-300 transition">
-              <i data-feather="facebook"></i>
-            </a>
-            <a href="#" class="hover:text-amber-300 transition">
-              <i data-feather="twitter"></i>
-            </a>
-          </div>
-        </div> -->
-        <div
-          class="border-t border-amber-800 mt-8 pt-8 text-center text-sm text-amber-200"
-        >
-          <p>&copy; 2026 CaLor VINUM. All Rights Reserved.</p>
-        </div>
-      </div>
-    </footer>
+    <footer class="briar-brown text-white py-12" id="footer-div"></footer>
 
     <script type="module" src="script.js" defer></script>
   </body>

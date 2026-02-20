@@ -186,9 +186,6 @@ const noErrorDiv = `
     ${list[item].title}
   </div>
 
-  
-  
-
 
   <div class="itemDescription">
     ${list[item].fullDescription}                
@@ -212,7 +209,7 @@ const noErrorDiv = `
 
    <!-- Pret -->
 <div class="itemDescription">
-    Price without VAT: ${list[item].specs.priceWithoutVAT}                
+    Price without VAT: ${list[item]?.specs?.priceWithoutVAT ?? "-"}            
   </div>
 
 
@@ -249,3 +246,13 @@ smallImages.forEach((img) => {
     changeLargeImage(img.src); // Schimbă imaginea mare la click pe o mică
   });
 });
+
+// Footer div:
+const footerDiv = document.getElementById("footer-div");
+const d = new Date();
+let year = d.getFullYear();
+footerDiv.innerHTML = `<div  class="border-t border-amber-800 mt-8 pt-8 text-center text-sm text-amber-200">  
+                      <p>Calor Vinum LTD, HE487196, Limassol, Cyprus. </p>
+                      <p> &copy; ${year} CaLor VINUM. All Rights Reserved.</p>
+                      </div>              
+`;
