@@ -479,7 +479,6 @@ The wine is powerful and extractive, with well-defined notes of Tămâioasă Rom
 
 const list = [
   mesajEroare,
-
   pipe1,
   pipe2,
   pipe3,
@@ -494,21 +493,11 @@ const list = [
   pipe12,
   pipe13,
   pipe14,
-  pipe15,
-  pipe16,
 ];
 
 export const red_list = [mesajEroare, pipe2, pipe11, pipe13, pipe14];
 
-export const white_list = [
-  mesajEroare,
-  pipe1,
-  pipe3,
-  pipe7,
-  pipe8,
-  pipe15,
-  pipe16,
-];
+export const white_list = [mesajEroare, pipe1, pipe3, pipe7, pipe8];
 
 export const rose_list = [
   mesajEroare,

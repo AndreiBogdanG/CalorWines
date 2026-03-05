@@ -88,17 +88,17 @@ body.modal-open {
 }
 
 .briar-brown {
-  background-color: #490f1c; /* rosu vin inchis */
+  background-color: #490f1c;
   margin: 0;
   padding: 0;
 }
 
 .briar-light {
-  background-color: #6a1b2c; /* rosu rubiniu */
+  background-color: #6a1b2c;
 }
 
 .briar-dark {
-  background-color: #3b0d19; /* visiniu foarte inchis */
+  background-color: #3b0d19;
 }
 
 .text-briar {
@@ -158,10 +158,6 @@ body.modal-open {
 
 #specsDiv {
   background-color: rgb(245, 220, 215);
-  /* display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  padding-left: 2rem; */
-  /* gap: 2rem; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -192,7 +188,7 @@ body.modal-open {
 }
 
 .small-image {
-  width: 150px; /* Dimensiune fixă pentru imaginile mici */
+  width: 150px;
   height: auto;
   cursor: pointer;
   transition: transform 0.3s ease;
@@ -207,6 +203,7 @@ body.modal-open {
 #large-image {
   border-radius: 1rem;
   max-width: 70vw;
+  width: 50%;
 }
 
 .large-image-container {
@@ -222,7 +219,6 @@ body.modal-open {
   font-size: 1.5rem;
   text-align: center;
   margin: 0 1rem 0 1rem;
-  /* text-indent: 30px; */
 }
 
 .specText {
@@ -249,14 +245,10 @@ body.modal-open {
 }
 
 .fullImage {
-  width: 50%; /* Imagine mare care se întinde pe toată lățimea containerului */
+  width: 50%;
   height: auto;
   display: block;
   margin: 0 auto;
-}
-
-#large-image {
-  width: 50%;
 }
 
 .normalImage {
@@ -285,7 +277,6 @@ p {
   justify-content: center;
   flex-wrap: wrap;
   position: relative;
-  /* max-width: 800px; */
   max-width: 70vw;
   padding-bottom: 10px;
   gap: 10px;
@@ -300,7 +291,6 @@ footer {
   color: white;
 }
 
-/* Desters daca nu merge: */
 #gallery-div {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 coloane */
@@ -357,7 +347,7 @@ footer {
   #gallery-div {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* 3 coloane */
-    gap: 2rem;
+    gap: 1rem;
   }
 
   .wine-name-mobile {
@@ -422,11 +412,6 @@ footer {
     background-position: center; /* centrează imaginea */
     background-repeat: no-repeat;
     height: 40vh;
-  }
-
-  /* De sters daca nu merge: */
-  #gallery-div {
-    gap: 1rem;
   }
 
   #gallery-div > div {
