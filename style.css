@@ -210,6 +210,11 @@ body.modal-open {
   text-align: center;
 }
 
+#contact-container {
+  max-width: 50vw;
+  text-align: center;
+}
+
 .contact {
   display: flex;
   justify-content: center;
@@ -284,6 +289,10 @@ p {
 
 .card {
   color: black;
+}
+
+#contact-logo {
+  height: 50vh;
 }
 
 footer {
@@ -416,6 +425,15 @@ footer {
 
   #gallery-div > div {
     width: 100%; /* asigură dimensiuni vizibile */
+  }
+
+  #contact-container {
+    max-width: 90vw;
+  }
+
+  #contact-second-container {
+    display: flex;
+    flex-direction: column-reverse;
   }
 }
 
