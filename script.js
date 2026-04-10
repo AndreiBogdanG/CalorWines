@@ -91,7 +91,7 @@ for (let i = 1; i < list.length; i++) {
       <div class="text-center mobile-text-center p-4">
         <h3 class="text-amber-200 text-xl font-bold">${list[i].title}</h3>
         <p class="text-amber-200 mobile-text">${list[i].shortDescription}</p>
-        <p class="text-amber-200 mobile-text">Price without VAT:</p>
+        <p class="text-amber-200 mobile-text">Price:</p>
         <p class="text-amber-200 mobile-text">${list[i].specs.priceWithoutVAT}</p>
       </div>
     </div>
@@ -209,7 +209,7 @@ const noErrorDiv = `
 
    <!-- Pret -->
 <div class="itemDescription">
-    Price without VAT: ${list[item]?.specs?.priceWithoutVAT ?? "-"}            
+    Price: ${list[item]?.specs?.priceWithoutVAT ?? "-"}            
   </div>
 
 
